@@ -1,5 +1,5 @@
 bucket = "finder-imob-registry"
-cloud_source_repository = "github_bravobardo_finder-imob"
+cloud_source_repository = "github_bardobravo_finder-imob"
 crontab_schedule = "44 8 * * *"
 project = "finder-imob"
 region = "us-east1"

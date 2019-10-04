@@ -51,9 +51,9 @@ func (record Item) csvRow() []string {
 func readConfig(params url.Values) Config {
 	available := map[string]Platform{
 		"ebay_kleinanzeigen": EBayKleinanzeigen{},
-		"immobilien_scout":   ImmobilienScout{},
-		"immowelt":           Immowelt{},
-		"nestpick":           Nestpick{},
+		//"immobilien_scout":   ImmobilienScout{},
+		//"immowelt":           Immowelt{},
+		//"nestpick":           Nestpick{},
 	}
 
 	platforms := make([]Platform, 0)

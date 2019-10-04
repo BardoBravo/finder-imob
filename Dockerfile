@@ -9,5 +9,5 @@ RUN go install
 
 FROM gcr.io/distroless/base
 
-COPY --from=build /go/bin/finder-imob-service /
+COPY --from=build /go/bin/finder-imob /
 CMD ["/finder-imob-service"]

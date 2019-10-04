@@ -82,7 +82,7 @@ func readConfig(params url.Values) Config {
 	}
 
 	return Config{
-		dataDir:          "/tmp/wohnung",
+		dataDir:          "/tmp/finder-imob-service",
 		platforms:        platforms,
 		storage:          storage,
 		collectorOptions: collectorOptions,

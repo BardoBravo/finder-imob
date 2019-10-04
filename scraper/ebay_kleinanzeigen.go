@@ -56,6 +56,6 @@ func (platform EBayKleinanzeigen) crawl(config Config, exporter Exporter) *colly
 		c.Visit(url)
 	})
 
-	c.Visit("https://www.ebay-kleinanzeigen.de/s-wohnung-mieten/berlin/c203l3331")
+	c.Visit("https://www.ebay-kleinanzeigen.de/s-finder-imob-service-mieten/berlin/c203l3331")
 	return c
 }

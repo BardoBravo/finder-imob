@@ -2,4 +2,4 @@
 tests.go
 *.logs
 credentials.json
-deployment/.terraform
+.terraform/

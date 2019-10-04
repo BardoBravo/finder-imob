@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"os"
 
-	scraper "github.com/Irio/wohnung/scraper"
+	scraper "github.com/BardoBravo/finder-imob/scraper"
 )
 
 func main() {
